@@ -64,3 +64,11 @@ main>:nth-child(5)>div div{
     height: 10vw;
     margin: 1rem;
 }
+
+/* global sets 
+
+*/
+.offset-top{
+    display: inline-flex;
+    vertical-align: middle;
+}
