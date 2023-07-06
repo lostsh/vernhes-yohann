@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-background: #ededed;
+    --color-red: #967A7A;
+    --color-black: #000000;
+    --color-white: #ededed;
+    --color-grey: #967A7A;
+
+    --color-main-text: var(--color-black);
+    --color-second-text: var(--color-red);
+    --color-couple-light-text: var(--color-background);
+    --color-couple-dark-text: var(--color-couple-light-text);
+
+    --box-shadow-color: #AD9292;
+
+    --box-border-color: var(--color-black);
+    --box-border-radius: 0;
+    --box-border-shadow-direction: 6px 6px 0 0;
+}
+
+body{
+    background-color: var(--color-background);
+    color: var(--color-main-text);
+    font-family: 'Roboto', monospace;
+}
+
+/* 
+    ╔════════════════════════════╗ 
+    ║           Main             ║
+    ╚════════════════════════════╝
+*/
+main{
+    width: 40vw;
+    margin: auto;
+}
+ul{
+    list-style-position: inside;
+}
+
+.round-picture img{
+    width: 10vw;
+    max-width: 10vw;
+    height: 10vw;
+    max-height: 10vw;
+
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 2px solid var(--color-white);
+    box-shadow: 0.2rem 0.2rem 1.5rem 0 var(--box-shadow-color);
+}
+
+p{
+    margin: 0.6vh 0 0.6vh 0;
+}
+h1, h2{
+    color: var(--color-second-text);
+    text-transform: uppercase;
+    margin: 1vh 0 1vh 0;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+/* 
+    ╔════════════════════════════╗ 
+    ║        Layouts class       ║
+    ╚════════════════════════════╝
+*/
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+.text-center{
+    display: flex;
+    justify-content: center;
+}
+.text-left{
+    float: left;
+}
+.text-right{
+    float: right;
+}
+.grey{
+    color: var(--color-grey);
+}
+::selection{
+    background-color: var(--color-main-text);
+    color: var(--color-background);
+}
+
+/* 
+    ╔════════════════════════════╗ 
+    ║           Fonts            ║
+    ╚════════════════════════════╝
+*/
+
+/* 
+    ╔════════════════════════════╗ 
+    ║        Media Querie        ║
+    ╚════════════════════════════╝
+*/
