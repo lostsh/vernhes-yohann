@@ -8,14 +8,14 @@
     --color-red: #967A7A;
     --color-black: #000000;
     --color-white: #ededed;
-    --color-grey: #967A7A;
+    --color-grey: var(--color-red);
 
     --color-main-text: var(--color-black);
     --color-second-text: var(--color-red);
     --color-couple-light-text: var(--color-background);
     --color-couple-dark-text: var(--color-couple-light-text);
 
-    --box-shadow-color: #AD9292;
+    --box-shadow-color: var(--color-red);
 
     --box-border-color: var(--color-black);
     --box-border-radius: 0;
