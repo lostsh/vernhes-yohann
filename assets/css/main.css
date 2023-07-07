@@ -56,6 +56,15 @@ ul{
 p{
     margin: 0.6vh 0 0.6vh 0;
 }
+a{
+    color: inherit;
+    text-decoration-style: solid;
+    text-decoration-thickness: 2px;
+}
+a:hover{
+    text-decoration-style: dashed;
+    text-decoration-line: overline;
+}
 h1, h2{
     color: var(--color-second-text);
     text-transform: uppercase;
