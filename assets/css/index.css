@@ -43,6 +43,9 @@ main>:nth-child(3) h3{
     border: 1px solid var(--box-border-color);
     font-weight: 900;
 }
+main>:nth-child(3) p{
+    text-align: justify;
+}
 
 /* Third div */
 main>:nth-child(4){
